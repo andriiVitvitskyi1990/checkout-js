@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.106.1-alpha.1610557771280](https://github.com/bigcommerce/checkout-js/compare/v1.100.0...v1.106.1-alpha.1610557771280) (2021-01-13)
+
+
+### Features
+
+* **checkout:** INT-3475 [Checkout.com] Mada card logo doesn't highlight on checkout ([d639238](https://github.com/bigcommerce/checkout-js/commit/d63923884c47065d15edc578ea5584b2ff50b046))
+* **customer:** CHECKOUT-4941 Add CreateAccountForm ([5a93e3d](https://github.com/bigcommerce/checkout-js/commit/5a93e3ddef943f3301afc1dccd1b015833601221))
+* **payment:** INT-2816 Added 3DS to googlepay adyenv2 ([e9623a5](https://github.com/bigcommerce/checkout-js/commit/e9623a541c6caabd1246a79cdf07f5a6a27b9421))
+* **payment:** INT-3237 Bump SDK. ([42c5c92](https://github.com/bigcommerce/checkout-js/commit/42c5c92b3114fef834a34f86614ac358f6ef6a10))
+* **payment:** INT-3538 Added translation method on  credit debit car title on adyenv2d ([e07cc65](https://github.com/bigcommerce/checkout-js/commit/e07cc650b0158123af6a18bf8c3140e9b7516d7b))
+* **payment:** PAYPAL-800 Bump checkout sdk ([92e981b](https://github.com/bigcommerce/checkout-js/commit/92e981b1ba9ec4037053a37c776b8790dd850ce7))
+* **payment:** PAYPAL-830 bump checkout-sdk version ([c9b5a0d](https://github.com/bigcommerce/checkout-js/commit/c9b5a0df5c03905c77f1c690e24de74cf015bf70))
+* **payment:** PAYPAL-837 Bump checkout sdk ([1b4d2d9](https://github.com/bigcommerce/checkout-js/commit/1b4d2d9e75458d9bf3ee1e206d5acb00705f1f04))
+* **payment:** PAYPAL-839 Bump checkout sdk ([209b8de](https://github.com/bigcommerce/checkout-js/commit/209b8de23cc165dfa624c278c00c285b33709970))
+* **payment:** PAYPAL-848 Bump checkout-sdk ([23c7d26](https://github.com/bigcommerce/checkout-js/commit/23c7d2623ca02c2937ed4dda3d6de2351abf9f41))
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-5300 Fix order confirmation page redirection failure if existing url contains query param ([196115d](https://github.com/bigcommerce/checkout-js/commit/196115d9ba10e92d3fd37167abfc2839108ea2ca))
+* **common:** CHECKOUT-5332 Only send in-app errors to Sentry ([213bcae](https://github.com/bigcommerce/checkout-js/commit/213bcaed6d9ab171e9ed61c5b5b98a2f39eb9d8e))
+* **common:** CHECKOUT-5332 Upgrade Sentry client ([adf20eb](https://github.com/bigcommerce/checkout-js/commit/adf20eb46193edd02e66b9f128b47ba8123d41c5))
+* **shipping:** CHECKOUT-5477 Check if multishipping is enabled once config is loaded ([d5ed8b7](https://github.com/bigcommerce/checkout-js/commit/d5ed8b733bd28a5221134306e556b960c3a384e4))
+
+
+### Code Refactoring
+
+* **common:** CHECKOUT-4941 Create FormField module ([5532d5c](https://github.com/bigcommerce/checkout-js/commit/5532d5c4a56ca04fe9a96efa6fd9af154ea3c4e2))
+
 ## [1.106.0](https://github.com/bigcommerce/checkout-js/compare/v1.105.2...v1.106.0) (2020-12-24)
 
 
