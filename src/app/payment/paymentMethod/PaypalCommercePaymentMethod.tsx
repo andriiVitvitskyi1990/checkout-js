@@ -29,6 +29,9 @@ const PaypalCommercePaymentMethod: FunctionComponent<PaypalCommercePaymentMethod
                 setSubmitted(true);
                 submitForm();
             },
+            onError: (error: Error) => {
+                onUnhandledError?.(error);
+            },
             onValidate: async (resolve: () => void, reject: () => void): Promise<void> => {
                 const keysValidation = Object.keys(await validateForm());
 
