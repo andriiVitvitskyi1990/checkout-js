@@ -45,7 +45,7 @@ const PaypalCommercePaymentMethod: FunctionComponent<PaypalCommercePaymentMethod
                 return resolve();
             },
         },
-    }), [initializePayment, submitForm, paymentContext, rest.method, validateForm, setSubmitted, setFieldTouched]);
+    }), [initializePayment, submitForm, paymentContext, rest.method, validateForm, setSubmitted, setFieldTouched, onUnhandledError]);
 
     const onError = (error: Error) => {
         paymentContext?.disableSubmit(rest.method, true);
