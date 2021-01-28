@@ -2,8 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64dca92d-0b10-464f-b3f2-91badff85405" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auto-loader-1.110.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auto-loader-1.110.1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/auto-loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/billing-12c84576.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/billing-12c84576.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/billing-13557bbf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/billing-13557bbf.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cart-summary-13f2743d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cart-summary-13f2743d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cart-summary-drawer-2d7fa60c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cart-summary-drawer-2d7fa60c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cart-summary~cart-summary-drawer-60a80e8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cart-summary~cart-summary-drawer-60a80e8b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cart-summary~cart-summary-drawer-ad2d875f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cart-summary~cart-summary-drawer-ad2d875f.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/checkout-5b47123a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/checkout-5b47123a.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/checkout-b9f111d0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/checkout-b9f111d0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/customer-4da9018b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/customer-4da9018b.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/customer-f83966fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/customer-f83966fa.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/loader-1.110.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/loader-1.110.1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/order-summary-890e1cfc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/order-summary-890e1cfc.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/order-summary-drawer-e3f4792b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/order-summary-drawer-e3f4792b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/payment-70a164eb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/payment-70a164eb.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/payment-e7f9c6fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/payment-e7f9c6fa.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfill~checkout-50a5d68c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/polyfill~checkout-50a5d68c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime-0f710f1f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/runtime-0f710f1f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sentry~checkout-a3981402.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/sentry~checkout-a3981402.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/shipping-7b212c47.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/shipping-7b212c47.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/shipping-d3b7acff.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/shipping-d3b7acff.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/card-abef8595.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/powered_by_google_on_white-f127e368.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/transients~checkout-934fa873.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/transients~checkout-934fa873.js.LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/transients~checkout-934fa873.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~customer~payment~shipping-1808b1a9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~customer~payment~shipping-1808b1a9.js.LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~customer~payment~shipping-1808b1a9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~customer~shipping-b9cd774f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~customer~shipping-b9cd774f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~payment~shipping-4fbea155.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~payment~shipping-4fbea155.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~shipping-353b7d8a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~billing~shipping-353b7d8a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~checkout-47659369.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~checkout-47659369.js.LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors~checkout-47659369.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/payment/paymentMethod/PaypalCommercePaymentMethod.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/payment/paymentMethod/PaypalCommercePaymentMethod.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +160,8 @@
       <workItem from="1611658172041" duration="4891000" />
       <workItem from="1611756311196" duration="1100000" />
       <workItem from="1611826947637" duration="2515000" />
-      <workItem from="1611830193490" duration="160000" />
+      <workItem from="1611830193490" duration="565000" />
+      <workItem from="1611831227763" duration="14000" />
     </task>
     <servers />
   </component>
