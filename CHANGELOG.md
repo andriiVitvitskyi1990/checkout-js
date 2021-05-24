@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.142.1-alpha.1621870154780](https://github.com/bigcommerce/checkout-js/compare/v1.142.0...v1.142.1-alpha.1621870154780) (2021-05-24)
+
+
+### Features
+
+* **payment:** PAYMENTS-6799 Use key-based translatable payment error message instead of that of the error response ([db7df13](https://github.com/bigcommerce/checkout-js/commit/db7df13de00099b44c58e0a58cd9b67ba9be0298))
+
 ## [1.142.0](https://github.com/bigcommerce/checkout-js/compare/v1.141.0...v1.142.0) (2021-05-20)
 
 
