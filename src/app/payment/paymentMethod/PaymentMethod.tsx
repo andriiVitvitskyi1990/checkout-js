@@ -160,6 +160,10 @@ const PaymentMethodComponent: FunctionComponent<PaymentMethodProps & WithCheckou
     }
 
     if (method.id === PaymentMethodId.Braintree) {
+        // @ts-ignore
+        // tslint:disable-next-line:no-console
+        console.log('Method id', method);
+
         return <BraintreeCreditCardPaymentMethod { ...props } />;
     }
 

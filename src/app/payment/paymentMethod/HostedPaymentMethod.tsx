@@ -109,6 +109,7 @@ class HostedPaymentMethod extends Component<
         if (!description && !isInstrumentFeatureAvailableProp) {
             return null;
         }
+        console.log('SELECTED INSTRUMENT', selectedInstrument);
 
         return (
             <LoadingOverlay

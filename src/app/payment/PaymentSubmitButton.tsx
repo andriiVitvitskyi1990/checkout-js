@@ -18,7 +18,6 @@ interface PaymentSubmitButtonTextProps {
 const providersWithCustomClasses = [PaymentMethodId.Bolt];
 
 const PaymentSubmitButtonText: FunctionComponent<PaymentSubmitButtonTextProps> = memo(({ methodId, methodName, methodType, methodGateway, initialisationStrategyType }) => {
-
     if (methodName && initialisationStrategyType === 'none') {
         return <TranslatedString data={ { methodName } } id="payment.ppsdk_continue_action" />;
     }
@@ -55,7 +54,7 @@ const PaymentSubmitButtonText: FunctionComponent<PaymentSubmitButtonTextProps> =
     }
 
     if (methodType === PaymentMethodType.Paypal) {
-        return <TranslatedString id="payment.paypal_continue_action" />;
+        return <TranslatedString id={ methodId === 'braintreevenmo' ? 'payment.braintreevenmo_continue_action' : 'payment.paypal_continue_action' } />;
     }
 
     if (methodType === PaymentMethodType.PaypalCredit) {
