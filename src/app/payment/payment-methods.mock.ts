@@ -29,6 +29,21 @@ export function getPaymentMethod(): PaymentMethod {
     };
 }
 
+export function getPaypalCrteditPaymentMethod(): PaymentMethod {
+    return {
+        config: {},
+        supportedCards: [],
+        id: 'paypalcommercecredit',
+        gateway: undefined,
+        logoUrl: '',
+        method: 'paypal',
+        initializationData: {
+            payPalCreditProductBrandName: 'Pay in 3',
+        },
+        type: 'PAYMENT_TYPE_API',
+    };
+}
+
 export function getMobilePaymentMethod(): PaymentMethod {
     return {
         id: 'authorizenetMobile',
