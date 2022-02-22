@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.197.1-alpha.1645520663789](https://github.com/bigcommerce/checkout-js/compare/v1.196.0...v1.197.1-alpha.1645520663789) (2022-02-22)
+
+
+### Features
+
+* **order:** INT-4776 Create a new field for the mandate reference ID ([#674](https://github.com/bigcommerce/checkout-js/issues/674)) ([c8b9b8b](https://github.com/bigcommerce/checkout-js/commit/c8b9b8b6b78134abbba2fff353c94c05d4c4ac09))
+* **payment:** INT-5467 Stripe UPE GooglePay ([0972c44](https://github.com/bigcommerce/checkout-js/commit/0972c44df1b711fa8cfb0d72c0d7cd2375f576a0))
+* **payment:** PAYPAL-1151 venmo spb integration ([ce81c45](https://github.com/bigcommerce/checkout-js/commit/ce81c45c46afae3ee7cff7a6586f64578ae603e3))
+* **payment:** PAYPAL-1282 New style object for PayPal APMs ([6a7269a](https://github.com/bigcommerce/checkout-js/commit/6a7269af47a8d69dabe49759648b3c2f92ca85da))
+* **payment:** PAYPAL-1284 different naming for PPCP on checkout page ([6d3dae8](https://github.com/bigcommerce/checkout-js/commit/6d3dae841835138fb94924e518a94ee3ea0a6160))
+* **payment:** PAYPAL-1284 different naming for PPCP on checkout page ([b0187e4](https://github.com/bigcommerce/checkout-js/commit/b0187e4d9640947ef9502d43e72d4aae0cc0bb66))
+* **payment:** PAYPAL-1284 test ([461e338](https://github.com/bigcommerce/checkout-js/commit/461e33819724914a7daa8ed8386b5e1e09171793))
+
+
+### Bug Fixes
+
+* **payment:** PAYPAL-1282 quick fix ([678cde9](https://github.com/bigcommerce/checkout-js/commit/678cde9567205ec0e17897f450cd7b35434b6004))
+
 ## [1.197.0](https://github.com/bigcommerce/checkout-js/compare/v1.196.0...v1.197.0) (2022-02-22)
 
 
