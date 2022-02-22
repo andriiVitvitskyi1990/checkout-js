@@ -12,7 +12,7 @@ export function getPaymentMethod(): PaymentMethod {
             'MC',
         ],
         initializationData: {
-            payPalCreditProductBrandName: '',
+            payPalCreditProductBrandName: {credit: ''},
         },
         config: {
             displayName: 'Authorizenet',
@@ -38,7 +38,7 @@ export function getPaypalCrteditPaymentMethod(): PaymentMethod {
         logoUrl: '',
         method: 'paypal',
         initializationData: {
-            payPalCreditProductBrandName: 'Pay in 3',
+            payPalCreditProductBrandName: {credit: 'Pay in 3'},
         },
         type: 'PAYMENT_TYPE_API',
     };

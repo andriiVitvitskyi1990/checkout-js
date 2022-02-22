@@ -24,7 +24,7 @@ describe('getPaymentMethodDisplayName()', () => {
         const method = { ...getPaypalCrteditPaymentMethod() };
 
         expect(getPaymentMethodDisplayName(language)(method))
-            .toEqual(method.initializationData.payPalCreditProductBrandName);
+            .toEqual(method.initializationData.payPalCreditProductBrandName.credit);
     });
 
     it('returns translated "Credit card" display name', () => {
