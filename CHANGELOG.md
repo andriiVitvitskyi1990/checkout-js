@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.198.4-alpha.1646224803177](https://github.com/bigcommerce/checkout-js/compare/v1.196.0...v1.198.4-alpha.1646224803177) (2022-03-02)
+
+
+### Features
+
+* **order:** INT-4776 Create a new field for the mandate reference ID ([#674](https://github.com/bigcommerce/checkout-js/issues/674)) ([c8b9b8b](https://github.com/bigcommerce/checkout-js/commit/c8b9b8b6b78134abbba2fff353c94c05d4c4ac09))
+* **payment:** INT-5384 Openpay: Add support to hosting their widget ([#808](https://github.com/bigcommerce/checkout-js/issues/808)) ([8832972](https://github.com/bigcommerce/checkout-js/commit/8832972860eb5f25d4fffa2cea94167d6f425426))
+* **payment:** INT-5467 Stripe UPE GooglePay ([0972c44](https://github.com/bigcommerce/checkout-js/commit/0972c44df1b711fa8cfb0d72c0d7cd2375f576a0))
+* **payment:** PAYPAL-1151 venmo spb integration ([ce81c45](https://github.com/bigcommerce/checkout-js/commit/ce81c45c46afae3ee7cff7a6586f64578ae603e3))
+* **payment:** PAYPAL-1282 New style object for PayPal APMs ([6a7269a](https://github.com/bigcommerce/checkout-js/commit/6a7269af47a8d69dabe49759648b3c2f92ca85da))
+* **payment:** PAYPAL-1284 different naming for PPCP on checkout page ([c1ff435](https://github.com/bigcommerce/checkout-js/commit/c1ff435271639e87e62cc8e42343fffb10172f07))
+* **payment:** PAYPAL-1284 different naming for PPCP on checkout page ([d508f84](https://github.com/bigcommerce/checkout-js/commit/d508f846a5efa7bac34ca9ff8d83f1ef20de1e00))
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-6207 entered information lost after window resizing ([#820](https://github.com/bigcommerce/checkout-js/issues/820)) ([d14bbdd](https://github.com/bigcommerce/checkout-js/commit/d14bbdd262fc556aa1a8bd4552bb73d4e748aa55))
+* **checkout:** CHECKOUT-6334 Restore Instructional Text in Country Dropdown Menu ([#819](https://github.com/bigcommerce/checkout-js/issues/819)) ([d647db5](https://github.com/bigcommerce/checkout-js/commit/d647db5f6aef32cfdc155f7d3d05265490dd70c3))
+* **checkout:** CHECKOUT-6393 Replace NBSP with Space ([#821](https://github.com/bigcommerce/checkout-js/issues/821)) ([1589ac0](https://github.com/bigcommerce/checkout-js/commit/1589ac0d302f4ce2c9a0c31b04d44f28e6801d3c))
+* **payment:** PAYPAL-1282 quick fix ([fa11c78](https://github.com/bigcommerce/checkout-js/commit/fa11c782236b262ee3df7810e10a7ad0a6815ed4))
+
 ### [1.198.3](https://github.com/bigcommerce/checkout-js/compare/v1.198.2...v1.198.3) (2022-03-02)
 
 ### [1.198.2](https://github.com/bigcommerce/checkout-js/compare/v1.198.1...v1.198.2) (2022-03-01)
