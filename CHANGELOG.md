@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.200.5-alpha.1648567733234](https://github.com/bigcommerce/checkout-js/compare/v1.200.4...v1.200.5-alpha.1648567733234) (2022-03-29)
+
+
+### Features
+
+* **payment:** PAYPAL-1327_PR added branding name to Submit button ([30790fa](https://github.com/bigcommerce/checkout-js/commit/30790fa1e31aee4335d204e6f9528499187757a5))
+
 ### [1.200.4](https://github.com/bigcommerce/checkout-js/compare/v1.200.3...v1.200.4) (2022-03-29)
 
 ### [1.200.3](https://github.com/bigcommerce/checkout-js/compare/v1.200.2...v1.200.3) (2022-03-22)
