@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.203.1-alpha.1648805125042](https://github.com/bigcommerce/checkout-js/compare/v1.200.4...v1.203.1-alpha.1648805125042) (2022-04-01)
+
+
+### Features
+
+* **checkout:** ADYEN-399 AdyenV3 googlepay ([2ec324b](https://github.com/bigcommerce/checkout-js/commit/2ec324bdc5ff5cbb445f59400696b3a97d5841fd))
+* **payment:** PAYPAL-1298 added brainding names logic for BT ([e3bfe6a](https://github.com/bigcommerce/checkout-js/commit/e3bfe6a48b1d88d8bdb9fd3e47d043a9b966aaeb))
+* **payment:** PAYPAL-1298 fixed branding for BT on checkout page ([788b95f](https://github.com/bigcommerce/checkout-js/commit/788b95f0a08ec588e65611b02346551d09f42bd6))
+* **payment:** PAYPAL-1327 added branding name to Submit button ([b373429](https://github.com/bigcommerce/checkout-js/commit/b3734292cf3b75f9df15a22274ac337fedc51ef1))
+
+
+### Bug Fixes
+
+* **payment:** CHECKOUT-6549 Add check if window has apple pay supported ([#837](https://github.com/bigcommerce/checkout-js/issues/837)) ([c3437a8](https://github.com/bigcommerce/checkout-js/commit/c3437a8aadc5aa409381c47df7831c74980e8b6a))
+
 ## [1.203.0](https://github.com/bigcommerce/checkout-js/compare/v1.202.0...v1.203.0) (2022-04-01)
 
 
