@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.210.3-alpha.1652249177947](https://github.com/bigcommerce/checkout-js/compare/v1.200.4...v1.210.3-alpha.1652249177947) (2022-05-11)
+
+
+### Features
+
+* **checkout:** ADYEN-399 AdyenV3 googlepay ([2ec324b](https://github.com/bigcommerce/checkout-js/commit/2ec324bdc5ff5cbb445f59400696b3a97d5841fd))
+* **checkout:** CHECKOUT-6340 checkout-js Test Automation Framework ([#842](https://github.com/bigcommerce/checkout-js/issues/842)) ([d28c714](https://github.com/bigcommerce/checkout-js/commit/d28c714790626df2b6d400ab155df924ef7dbd4c))
+* **checkout:** CHECKOUT-6340 Update Jest Config ([#855](https://github.com/bigcommerce/checkout-js/issues/855)) ([c6fed8f](https://github.com/bigcommerce/checkout-js/commit/c6fed8fb910f8b870cf45a1b286942fcf31074ac))
+* **checkout:** INT-5126 [MPGS] Add 3ds support for MPGS ([9e5408f](https://github.com/bigcommerce/checkout-js/commit/9e5408ffcfbad534fa85d7f232a292e20e247f27))
+* **payment:** PAYMENTS-7403 Add PPSDK Credit Card payment method UI ([9e9222f](https://github.com/bigcommerce/checkout-js/commit/9e9222fc8bc671566cab9cdc0fbf52c196ea30c1))
+* **payment:** PAYMENTS-7403 Bump checkout-sdk for PPSDK credit card sub-strategy ([638b144](https://github.com/bigcommerce/checkout-js/commit/638b14424087d0f6c015564bf92230cda72a4a5a))
+* **payment:** PAYMENTS-7788 Add icons for Crypto instruments ([fc73f22](https://github.com/bigcommerce/checkout-js/commit/fc73f221dbaf8e67a6b729bb6554c4b06d7c037f))
+* **payment:** PAYPAL-1177 bump checkout sdk js version ([ed4e36f](https://github.com/bigcommerce/checkout-js/commit/ed4e36fea96ba416c1ef5773c3910e2f8edda9c0))
+* **payment:** PAYPAL-1298 added brainding names logic for BT ([e3bfe6a](https://github.com/bigcommerce/checkout-js/commit/e3bfe6a48b1d88d8bdb9fd3e47d043a9b966aaeb))
+* **payment:** PAYPAL-1298 fixed branding for BT on checkout page ([788b95f](https://github.com/bigcommerce/checkout-js/commit/788b95f0a08ec588e65611b02346551d09f42bd6))
+* **payment:** PAYPAL-1327 added branding name to Submit button ([b373429](https://github.com/bigcommerce/checkout-js/commit/b3734292cf3b75f9df15a22274ac337fedc51ef1))
+* **payment:** PAYPAL-1416 Add oxxo ticket for PPCP ([6955a25](https://github.com/bigcommerce/checkout-js/commit/6955a25ed553c32ad801103b0a300e925f8f8744))
+* **shipping:** CHECKOUT-6544 Update consignment methods to use address ([#845](https://github.com/bigcommerce/checkout-js/issues/845)) ([4d82b05](https://github.com/bigcommerce/checkout-js/commit/4d82b05aec3ec323983ac76c3185dc0dfaf2a6ad))
+
+
+### Bug Fixes
+
+* **checkout:** ADYEN-431 AdyenV3 component state fix ([5c77452](https://github.com/bigcommerce/checkout-js/commit/5c774520c03ad6d39ebbfdb61862a2987d91166d))
+* **checkout:** ADYEN-454 AdyenV2 initialize interface fix ([4958ada](https://github.com/bigcommerce/checkout-js/commit/4958ada4606048dc4c3aecad9317eb744dcd1130))
+* **checkout:** CHECKOUT-6563 Apple Pay on Cart Page Loads Checkout Settings ([#848](https://github.com/bigcommerce/checkout-js/issues/848)) ([4e4fdfe](https://github.com/bigcommerce/checkout-js/commit/4e4fdfe97bb4b50a0957984cd0860ab870b332e4))
+* **checkout:** CHECKOUT-6631 Sentry issue bugfix ([#861](https://github.com/bigcommerce/checkout-js/issues/861)) ([21f875d](https://github.com/bigcommerce/checkout-js/commit/21f875d52964a5c9249860fea382e61d961def8f))
+* **checkout:** INT-5543 [CKO] Update to 3DS on Google Pay ([64b052e](https://github.com/bigcommerce/checkout-js/commit/64b052ed04f683cfd85b937ad95cc54da93d168f))
+* **payment:** BOLT-203 Bump checkout-sdk v1.237.1 ([88d04df](https://github.com/bigcommerce/checkout-js/commit/88d04dfa3fa1c49f8e9e0d31936b0faa44512485))
+* **payment:** CHECKOUT-6549 Add check if window has apple pay supported ([#837](https://github.com/bigcommerce/checkout-js/issues/837)) ([c3437a8](https://github.com/bigcommerce/checkout-js/commit/c3437a8aadc5aa409381c47df7831c74980e8b6a))
+* **shipping:** CHECKOUT-0000 Only mark the currently selected shipping option as valid if it is available for the current address. ([#840](https://github.com/bigcommerce/checkout-js/issues/840)) ([5dbeda5](https://github.com/bigcommerce/checkout-js/commit/5dbeda57d065da3222507a0bd00a81a72c5eec79))
+
 ### [1.210.2](https://github.com/bigcommerce/checkout-js/compare/v1.210.1...v1.210.2) (2022-05-09)
 
 ### [1.210.1](https://github.com/bigcommerce/checkout-js/compare/v1.210.0...v1.210.1) (2022-05-02)
