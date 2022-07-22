@@ -371,6 +371,8 @@ class Payment extends Component<PaymentProps & WithCheckoutPaymentProps & WithLa
             onUnhandledError = noop,
         } = this.props;
 
+        this.setState({previousStoreCreditStatus: useStoreCredit});
+
         try {
             await applyStoreCredit(useStoreCredit);
         } catch (e) {
