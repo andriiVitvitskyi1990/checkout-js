@@ -131,9 +131,9 @@ const PaymentForm: FunctionComponent<PaymentFormProps & FormikProps<PaymentFormV
                 termsConditionsText={ termsConditionsText }
                 termsConditionsUrl={ termsConditionsUrl }
             /> }
-
+            { !isPaymentDataRequired() &&
             <div className="form-actions">
-                { shouldHidePaymentSubmitButton ?
+                { shouldHidePaymentSubmitButton?
                     <PaymentMethodSubmitButtonContainer /> :
                     <PaymentSubmitButton
                         brandName = { brandName }
@@ -145,6 +145,7 @@ const PaymentForm: FunctionComponent<PaymentFormProps & FormikProps<PaymentFormV
                         methodType={ selectedMethod && selectedMethod.method }
                     /> }
             </div>
+                }
         </Form>
     );
 };
