@@ -132,6 +132,7 @@ const PaymentForm: FunctionComponent<PaymentFormProps & FormikProps<PaymentFormV
                 termsConditionsUrl={ termsConditionsUrl }
             /> }
 
+
             <div className="form-actions">
                 { shouldHidePaymentSubmitButton ?
                     <PaymentMethodSubmitButtonContainer /> :

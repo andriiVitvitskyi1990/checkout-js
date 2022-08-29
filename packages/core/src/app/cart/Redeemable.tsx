@@ -181,7 +181,7 @@ export default withLanguage(withFormik<RedeemableProps & WithLanguageProps, Rede
             await applyGiftCertificate(code);
         } catch (error) {
             clearError(error);
-            applyCoupon(code);
+           await applyCoupon(code);
         }
     },
 
