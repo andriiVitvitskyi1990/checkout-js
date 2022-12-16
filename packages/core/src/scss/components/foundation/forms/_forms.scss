@@ -216,7 +216,6 @@
 
     .loading-skeleton {
         animation: grows 150ms ease-out;
-        overflow: hidden;
         will-change: max-height;
     }
 
