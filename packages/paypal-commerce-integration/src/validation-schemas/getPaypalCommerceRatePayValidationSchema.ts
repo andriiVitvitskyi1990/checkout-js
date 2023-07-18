@@ -3,9 +3,9 @@ import { memoize } from '@bigcommerce/memoize';
 import { object, string, StringSchema } from 'yup';
 
 export default memoize(function getPaypalCommerceRatePayValidationSchema({
-                                                                             formFieldData,
-                                                                             language,
-                                                                         }: {
+ formFieldData,
+ language,
+}: {
     formFieldData: FormField[];
     language: LanguageService;
 }) {
