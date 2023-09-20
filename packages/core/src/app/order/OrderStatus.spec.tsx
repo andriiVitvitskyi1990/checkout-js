@@ -341,5 +341,26 @@ describe('OrderStatus', () => {
                 orderStatus.find('[data-test="order-confirmation-mandate-id-text"]'),
             ).toHaveLength(0);
         });
+
+        it('render mandateText list',  () => {
+            const order = getOrder();
+            order.payments = [{
+                providerId: 'paypalcommercealternativemethod',
+                methodId: 'ratepay',
+                mandate: {
+                    id: '',
+                    url: '',
+                    mandateText: {
+                        account_holder_name: 'Name',
+                    },
+                }
+            }]
+
+            const orderStatus = mount(<OrderStatusTest {...defaultProps} order={order} />);
+
+            expect(
+                orderStatus.find('[data-test="order-confirmation-mandate-mandateText-list"]'),
+            ).toHaveLength(1);
+        });
     });
 });
