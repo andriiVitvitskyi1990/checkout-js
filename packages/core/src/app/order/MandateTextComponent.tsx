@@ -27,7 +27,7 @@ export const MandateTextComponent: FunctionComponent<MandateTextComponentProps> 
                             id={`order_confirmation.mandate.${providerId}.${methodId}.${field[0]}`}
                         />:
                         <b>
-                            {field[1]}
+                            {` ${field[1]}`}
                         </b>
                     </li>
                 )

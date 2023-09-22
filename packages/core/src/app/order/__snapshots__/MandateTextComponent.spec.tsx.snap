@@ -6,21 +6,21 @@ exports[`MandateTextComponent renders component with provided props 1`] = `
     data-test="order-confirmation-mandate-mandateText-list"
   >
     <li>
-       :
+      :
       <b>
-        Test
+         Test
       </b>
     </li>
     <li>
-       :
+      :
       <b>
-        1343442323
+         1343442323
       </b>
     </li>
     <li>
-       :
+      :
       <b>
-        GDU856858
+         GDU856858
       </b>
     </li>
   </ul>
