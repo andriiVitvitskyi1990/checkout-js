@@ -8,6 +8,7 @@ import {
 import { DynamicFormField, DynamicFormFieldType, FormContext } from '@bigcommerce/checkout/ui';
 import { FormField } from '@bigcommerce/checkout-sdk';
 import getPaypalCommerceRatePayValidationSchema from './validation-schemas/getPaypalCommerceRatePayValidationSchema';
+import { LoadingSpinnerAnimation } from '../../ui/src/loading';
 
 interface RatePayFieldValues {
     ratepayBirthDate: {
@@ -79,6 +80,7 @@ const PaypalCommerceRatePayPaymentMethod: FunctionComponent<any> = ({
                 paypalcommerceratepay: {
                     container: '#checkout-payment-continue',
                     legalTextContainer: 'legal-text-container',
+                    loadingSpinner: ()  => LoadingSpinnerAnimation({}),
                     getFieldsValues: () => fieldsValues.current,
                     onError: (error: Error) => {
                         paymentForm.disableSubmit(method, true);

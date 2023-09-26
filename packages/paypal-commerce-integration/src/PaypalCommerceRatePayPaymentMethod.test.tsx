@@ -68,6 +68,7 @@ describe('PaypalCommerceRatePayPaymentMethod', () => {
                 legalTextContainer: 'legal-text-container',
                 getFieldsValues: expect.any(Function),
                 onError: expect.any(Function),
+                loadingSpinner: expect.any(Function),
             },
         });
     });
