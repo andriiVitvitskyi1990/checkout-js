@@ -11,3 +11,16 @@
 // -----------------------------------------------------------------------------
 
 $overlay-fill:                  rgba($color-white, 0.9);
+
+.embedded-checkout-loading-spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(1, 1, 1, .3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
