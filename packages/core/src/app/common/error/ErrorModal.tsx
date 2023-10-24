@@ -70,7 +70,7 @@ export default class ErrorModal extends PureComponent<ErrorModalProps> {
 
         return (
             <>
-                {error && isHtmlError(error) &&
+                {error && isCustomError(error) && isHtmlError(error) &&
                     <TranslatedHtml id={error.data.translationKey} />
                 }
                 {message && (
