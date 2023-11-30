@@ -11,6 +11,7 @@ import getPaypalCommerceRatePayValidationSchema from './validation-schemas/getPa
 import { LoadingSpinner } from '@bigcommerce/checkout/ui';
 import { CustomError } from '@bigcommerce/checkout/payment-integration-api';
 import { SpecificError } from '@bigcommerce/checkout/payment-integration-api';
+import { CountryData, getCountryData } from './index';
 
 const PAYMENT_SOURCE_INFO_CANNOT_BE_VERIFIED = 'PAYMENT_SOURCE_INFO_CANNOT_BE_VERIFIED';
 const PAYMENT_SOURCE_DECLINED_BY_PROCESSOR = 'PAYMENT_SOURCE_DECLINED_BY_PROCESSOR';
@@ -42,7 +43,6 @@ const formFieldData: FormField[] = [
         required: true,
         fieldType: DynamicFormFieldType.TEXT,
         type: 'string',
-        maxLength: 2,
     },
     {
         name: 'ratepayPhoneNumber',
@@ -170,6 +170,16 @@ const PaypalCommerceRatePayPaymentMethod: FunctionComponent<any> = ({
         setSubmitted(false);
         setValidationSchema(method, validationSchema);
     }, [validationSchema, method, setValidationSchema, setSubmitted]);
+
+    useEffect(() => {
+        setFieldValue('ratepayPhoneCountryCode', getCountryInfo().dialCode);
+    }, []);
+
+    const getCountryInfo = (): CountryData => {
+        const billing = checkoutState.data.getBillingAddress();
+
+        return getCountryData(billing.country)[0] || '';
+    };
 
     return (
         <div style={{marginBottom:'20px'}}>

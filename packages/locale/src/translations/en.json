@@ -434,7 +434,7 @@
             },
             "ratepay": {
                 "payment_method_title": "Pay upon Invoice",
-                "phone_country_code": "Country code",
+                "phone_country_code": "Dial code",
                 "phone_number": "Phone number",
                 "birth_date": "Date of birth",
                 "errors": {
