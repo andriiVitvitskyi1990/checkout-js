@@ -3,3 +3,4 @@ export { default as PayPalCommerceCreditPaymentMethod } from './PayPalCommerceCr
 export { default as PayPalCommercePaymentMethod } from './PayPalCommercePaymentMethod';
 export { default as PayPalCommerceVenmoPaymentMethod } from './PayPalCommerceVenmoPaymentMethod';
 export { default as PaypalCommerceRatePayPaymentMethod } from './PaypalCommerceRatePayPaymentMethod';
+export { CountryData, getCountryData } from './CountryData';

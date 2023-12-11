@@ -11,6 +11,7 @@ import getPaypalCommerceRatePayValidationSchema from './validation-schemas/getPa
 import { LoadingSpinner } from '@bigcommerce/checkout/ui';
 import { CustomError } from '@bigcommerce/checkout/payment-integration-api';
 import { SpecificError } from '@bigcommerce/checkout/payment-integration-api';
+import { CountryData, getCountryData } from './index';
 
 const PAYMENT_SOURCE_INFO_CANNOT_BE_VERIFIED = 'PAYMENT_SOURCE_INFO_CANNOT_BE_VERIFIED';
 const PAYMENT_SOURCE_DECLINED_BY_PROCESSOR = 'PAYMENT_SOURCE_DECLINED_BY_PROCESSOR';
@@ -34,7 +35,6 @@ const formFieldData: FormField[] = [
         label: 'payment.ratepay.birth_date',
         required: true,
         fieldType: DynamicFormFieldType.DATE,
-        inputDateFormat: 'dd.MM.yyyy',
     },
     {
         name: 'ratepayPhoneCountryCode',
@@ -44,7 +44,6 @@ const formFieldData: FormField[] = [
         required: true,
         fieldType: DynamicFormFieldType.TEXT,
         type: 'string',
-        maxLength: 2,
     },
     {
         name: 'ratepayPhoneNumber',
@@ -53,8 +52,6 @@ const formFieldData: FormField[] = [
         label: 'payment.ratepay.phone_number',
         required: true,
         fieldType: DynamicFormFieldType.TEXT,
-        maxLength: 11,
-        min: 8,
     }
 ];
 
@@ -75,6 +72,11 @@ const PaypalCommerceRatePayPaymentMethod: FunctionComponent<any> = ({
     const fieldsValues = useRef<Partial<RatePayFieldValues>>({});
     const isPaymentDataRequired = checkoutState.data.isPaymentDataRequired();
     const [isPaymentSubmitting, setIsPaymentSubmitting] = useState(false);
+    const getCountryInfo = (): CountryData => {
+        const billing = checkoutState.data.getBillingAddress();
+
+        return getCountryData(billing.country)[0] || '';
+    };
 
     if (!isPaymentDataRequired) {
         return null;
@@ -181,6 +183,10 @@ const PaypalCommerceRatePayPaymentMethod: FunctionComponent<any> = ({
         setSubmitted(false);
         setValidationSchema(method, validationSchema);
     }, [validationSchema, method, setValidationSchema, setSubmitted]);
+
+    useEffect(() => {
+        setFieldValue('ratepayPhoneCountryCode', getCountryInfo().dialCode);
+    }, []);
 
     return (
         <div style={{marginBottom:'20px'}}>
