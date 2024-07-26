@@ -48,24 +48,32 @@ exports[`Customer when view type is "guest" matches snapshot 1`] = `
                 />
               </div>
               <div
-                class="form-field"
+                class="customerEmail-bottom-part"
               >
-                <input
-                  class="form-checkbox"
-                  data-test="should-subscribe-checkbox"
-                  id="shouldSubscribe"
-                  name="shouldSubscribe"
-                  type="checkbox"
-                  value="false"
-                />
-                <label
-                  class="form-label optimizedCheckout-form-label"
-                  for="shouldSubscribe"
+                <div
+                  class="form-field"
                 >
-                  <span>
-                    Subscribe to our newsletter.
-                  </span>
-                </label>
+                  <input
+                    class="form-checkbox"
+                    data-test="should-subscribe-checkbox"
+                    id="shouldSubscribe"
+                    name="shouldSubscribe"
+                    type="checkbox"
+                    value="false"
+                  />
+                  <label
+                    class="form-label optimizedCheckout-form-label"
+                    for="shouldSubscribe"
+                  >
+                    <span>
+                      Subscribe to our newsletter.
+                    </span>
+                  </label>
+                </div>
+                <div
+                  data-test-id="fastlanePrivacySettings"
+                  id="fastlanePrivacySettings"
+                />
               </div>
             </div>
             <div

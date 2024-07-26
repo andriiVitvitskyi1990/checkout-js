@@ -80,10 +80,12 @@ const GuestForm: FunctionComponent<
                 <div className="customerEmail-container">
                     <div className="customerEmail-body">
                         <EmailField isFloatingLabelEnabled={isFloatingLabelEnabled} onChange={onChangeEmail}/>
-
-                        {(canSubscribe || requiresMarketingConsent) && (
-                            <BasicFormField name="shouldSubscribe" render={renderField} />
-                        )}
+                        <div className="customerEmail-bottom-part">
+                            {(canSubscribe || requiresMarketingConsent) && (
+                                <BasicFormField name="shouldSubscribe" render={renderField} />
+                            )}
+                            <FastlanePrivacySettings />
+                        </div>
                     </div>
 
                     <div
@@ -101,7 +103,6 @@ const GuestForm: FunctionComponent<
                         >
                             <TranslatedString id={continueAsGuestButtonLabelId} />
                         </Button>
-                        <FastlanePrivacySettings />
                     </div>
                 </div>
 

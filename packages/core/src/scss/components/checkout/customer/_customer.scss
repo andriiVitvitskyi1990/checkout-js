@@ -24,6 +24,11 @@
     }
 }
 
+.customerEmail-bottom-part {
+    display: flex;
+    justify-content: space-between;
+}
+
 .customerEmail-action {
     @include grid-column($collapse: true, $columns: $total-columns);
 
