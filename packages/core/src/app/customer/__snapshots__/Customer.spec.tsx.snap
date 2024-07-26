@@ -48,6 +48,14 @@ exports[`Customer when view type is "guest" matches snapshot 1`] = `
                 />
               </div>
               <div
+                class="emailWatermark-container"
+              >
+                <div
+                  data-test-id="emailWatermark"
+                  id="emailWatermark"
+                />
+              </div>
+              <div
                 class="form-field"
               >
                 <input
