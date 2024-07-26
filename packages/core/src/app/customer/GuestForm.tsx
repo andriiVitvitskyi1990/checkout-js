@@ -12,6 +12,7 @@ import { BasicFormField, Fieldset, Form, Legend } from '../ui/form';
 import EmailField from './EmailField';
 import SubscribeField from './SubscribeField';
 import { SubscribeSessionStorage } from './SubscribeSessionStorage';
+import { FastlanePrivacySettings } from './index';
 
 function getShouldSubscribeValue(requiresMarketingConsent: boolean, defaultShouldSubscribe: boolean) {
     if (SubscribeSessionStorage.getSubscribeStatus()) {
@@ -100,6 +101,7 @@ const GuestForm: FunctionComponent<
                         >
                             <TranslatedString id={continueAsGuestButtonLabelId} />
                         </Button>
+                        <FastlanePrivacySettings />
                     </div>
                 </div>
 
