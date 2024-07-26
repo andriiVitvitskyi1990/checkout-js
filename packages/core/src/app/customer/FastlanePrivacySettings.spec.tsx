@@ -1,6 +1,7 @@
+import { configure, render, screen } from '@testing-library/react';
 import React, { FunctionComponent } from 'react';
-import { render, screen, configure } from '@testing-library/react';
 
+import { getStoreConfig } from '../config/config.mock';
 import { FastlanePrivacySettings } from './';
 import { CheckoutProvider } from "@bigcommerce/checkout/payment-integration-api";
 import { WithCheckoutProps } from '../checkout';
@@ -9,7 +10,6 @@ import {
     CheckoutService,
     createCheckoutService
 } from '@bigcommerce/checkout-sdk';
-import { getStoreConfig } from '../config/config.mock';
 
 configure({
     testIdAttribute: 'data-test-id',
@@ -20,6 +20,7 @@ describe('FastlanePrivacySettings Component',() => {
     let checkoutState: CheckoutSelectors;
     let FastlanePrivacySettingsComponent: FunctionComponent<WithCheckoutProps>;
     let defaultProps: WithCheckoutProps;
+
     beforeEach(() => {
         const config = getStoreConfig();
         const braintreeFastlanePaymentMethod =  {
@@ -36,6 +37,7 @@ describe('FastlanePrivacySettings Component',() => {
             type: 'PAYMENT_TYPE_API',
             clientToken: 'clientToken',
         };
+
         checkoutService = createCheckoutService();
         checkoutState = checkoutService.getState();
         defaultProps = {
@@ -97,6 +99,7 @@ describe('FastlanePrivacySettings Component',() => {
             type: 'PAYMENT_TYPE_API',
             clientToken: 'clientToken',
         };
+
         jest.spyOn(checkoutState.data, 'getPaymentMethod').mockReturnValue(paypalFastlanePaymentMethod);
         jest.spyOn(checkoutState.data, 'getConfig').mockReturnValue({
             ...config,

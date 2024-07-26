@@ -38,7 +38,7 @@ const FastlanePrivacySettings: FunctionComponent<WithCheckoutProps> = (props: Wi
         if (providerWithCustomCheckout === 'braintree' || providerWithCustomCheckout === 'braintreeacceleratedcheckout') {
             const paymentMethod = getPaymentMethod(providerWithCustomCheckout);
 
-            if(!!paymentMethod?.initializationData?.isFastlanePrivacySettingEnabled) {
+            if(paymentMethod?.initializationData?.isFastlanePrivacySettingEnabled) {
                 window.braintreeFastlane.FastlaneWatermarkComponent({
                     includeAdditionalInfo: true,
                 })
@@ -51,7 +51,7 @@ const FastlanePrivacySettings: FunctionComponent<WithCheckoutProps> = (props: Wi
         if (providerWithCustomCheckout === 'paypalcommerce' || providerWithCustomCheckout === 'paypalcommerceacceleratedcheckout') {
             const paymentMethod = getPaymentMethod(providerWithCustomCheckout);
 
-            if(!!paymentMethod?.initializationData?.isFastlanePrivacySettingEnabled) {
+            if(paymentMethod?.initializationData?.isFastlanePrivacySettingEnabled) {
                 window.paypalFastlane.FastlaneWatermarkComponent({
                     includeAdditionalInfo: true,
                 })
