@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.508.5-prerelease.1721971177301](https://github.com/bigcommerce/checkout-js/compare/v1.508.5-prerelease.1721936743168...v1.508.5-prerelease.1721971177301) (2024-07-26)
+
+
+### Features
+
+* **payment:** PAYPAL-4406 added Fastlane Privacy Settings ([90bcd74](https://github.com/bigcommerce/checkout-js/commit/90bcd74e3ec7f9f8194d9d0290797bc27fc342fd))
+
 ### [1.508.5-prerelease.1721936743168](https://github.com/bigcommerce/checkout-js/compare/v1.508.5-prerelease.1721934205083...v1.508.5-prerelease.1721936743168) (2024-07-25)
 
 ### [1.508.5-prerelease.1721934205083](https://github.com/bigcommerce/checkout-js/compare/v1.508.5-prerelease.1721921387333...v1.508.5-prerelease.1721934205083) (2024-07-25)
