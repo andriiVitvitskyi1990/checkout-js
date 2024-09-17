@@ -1,6 +1,6 @@
 {
   "name": "@bigcommerce/checkout",
-  "version": "1.524.7-prerelease.1726499407675",
+  "version": "1.524.7-prerelease.1726555032165",
   "private": true,
   "description": "Browser-based application providing a seamless UI for BigCommerce shoppers to complete their checkout.",
   "license": "MIT",
