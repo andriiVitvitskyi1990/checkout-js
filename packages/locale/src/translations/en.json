@@ -82,6 +82,7 @@
             "consistency_error": "Your checkout could not be processed because some details have changed. Please review your order and try again."
         },
         "common": {
+            "back_action": "Back",
             "confirm_action": "Confirm",
             "cancel_action": "Cancel",
             "close_action": "Close",
@@ -392,6 +393,7 @@
                 "expired_card": "Your card has expired. Please try again with a valid card.",
                 "gateway_error": "Something went wrong on the server. Please try again at a later time.",
                 "general_error": "Error while processing payment request.",
+                "google_pay_try_other_card": "Select a different card or log out of Google Pay to try the payment again.",
                 "hosted_form_error": "Unable to process the payment because invalid data was supplied with the transaction.",
                 "incorrect_address": "Your billing address couldn't be verified. Please check your billing address details and try again.",
                 "incorrect_amount": "Unable to process the payment because invalid data was supplied with the transaction.",
@@ -551,7 +553,11 @@
             "quantity_invalid_error": "Quantity must be a number",
             "quantity_max_error": "Quantity cannot exceed \"Left to allocate\" amount.",
             "quantity_min_error": "Quantity cannot be less than 0",
-            "custom_item_quantity_error": "All quantities of this custom product must be allocated to the same destination, as it was created specifically for this draft order."
+            "custom_item_quantity_error": "All quantities of this custom product must be allocated to the same destination, as it was created specifically for this draft order.",
+            "choose_shipping_address": "Choose a shipping address",
+            "multishipping_unavailable_action": "Multi-Address Shipping Unavailable",
+            "multishipping_unavailable_message": "Multi-address shipping is unavailable when a promotion adds a free item to your cart.",
+            "checkout_switched_to_single_shipping": "Your checkout has been automatically updated to use a single shipping address. Shipping to multiple addresses is unavailable when a promotional free item is in your cart."
         },
         "social": {
             "share_action": "Share",
